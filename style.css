@@ -1,0 +1,119 @@
+/* *{ */
+    /* background-color:aliceblue; */
+    /* universal selector */
+
+/* } */
+
+#sagar{
+    color: blue;
+        background-color: black;
+    font-style: normal;
+    font-size: medium;
+    /* id access */
+
+    }
+    .hanuma{
+        font-size: medium;
+        font-style: italic;
+        background-color: black;
+        color: blue;
+        /* class access */
+    }
+    #ram{
+        font-size: medium;
+        font-style: italic;
+        background-color: black;
+        color: blue;
+        /* id access */
+    }
+    h1{
+        font-size: medium;
+        font-style: italic;
+        background-color: black;
+        color: blue;
+         /*all h1 tags changes applied  */
+    }
+    p{
+        font-size: medium;
+        font-style: normal;
+        background-color: darkkhaki;
+        color: deeppink;
+                 /*all p tags changes applied  */
+
+    }
+    input{
+        font-size: medium;
+            font-style: normal;
+            background-color: darkkhaki;
+            color: deeppink;
+            /* access by input */
+            
+    }
+::placeholder{
+    font-size: medium;
+    background-color: black;
+    color: blue;
+    /* access by placeholder pseudo element starting :: */
+}
+img{
+    width:250px;
+    height: 250px;
+    /* img access */
+}
+.frame{
+    height: 200px;
+    width: 200px;
+    border:10px solid black;
+    border-color: black;
+}
+.sagar{
+    background-color: blue;
+}
+.sagar-1{
+    background-color: chartreuse;
+}
+#yugan{
+    font-size: medium;
+        font-style: normal;
+        background-color: darkkhaki;
+        color: deeppink;
+        /* id selector */
+
+}
+li:first-child{
+    /* background-color: blue; */
+    color:darkgreen;
+    background-color: brown;
+}
+li:last-child{
+    color:blue;
+    background-color: burlywood;
+}
+#first-one>li:nth-child(2){
+    color:darkmagenta;
+}
+#first-one>li:nth-child(3){
+    color:gold;
+}
+table>tbody>tr:nth-child(1){
+    background-color: blue;
+}
+table>tbody>tr:nth-child(2){
+    background-color: chartreuse;
+}
+table>tbody>tr:nth-child(2)>td:nth-child(2){
+background-color: cyan;
+}
+/* table access */
+#my-heading::first-letter{
+    font-size:100px;
+    color:brown;
+    
+}
+#my-heading::before{
+    content:"yugandhar"; 
+}
+#my-heading::after{
+    content:"yugandhar"; 
+}
+/* pseudo elements before after first letter adding */
