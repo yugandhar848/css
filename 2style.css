@@ -1,0 +1,93 @@
+/* 1>Text properties */
+.sagar{
+    color: blue;   /*color*/    
+    text-align:center; /*text align*/
+    text-decoration:underline;/*text decoration*/
+}
+#ram{
+    text-transform:uppercase;/*text transform*/
+}
+#ram-1{
+    text-transform: lowercase;
+}
+li{
+    line-height: 3;/*line height we can add 1,2 etc or 100%,200% etc*/
+}
+#shadow{
+    text-shadow: 2px 10px 4px chocolate;/*xpx ypx blurradius(px) color  .we can add -ve values also*/
+}
+/*Font propertiess*/
+#font{
+    font-family:'Times New Roman', Times, serif;/*google font family css,intyer font google.google font poppins we can use*/
+
+}
+cite{
+    font-style:normal;/*we can change italic normal oblique*/
+    font-weight:800;/*range is 100-900 with increment of 100 we can not mention 1 and 2 like thta*/
+    font-size:100px;/*font size we can mention any no limitations*/
+}
+/*2>background propertys*/
+h4{
+    font-size: 1000%;
+    background-color:chartreuse;/*hexcode,rgb,fixed colour,rgba*/
+    background-image:image();/* back ground image  image or gradiant or radial*/
+    background-image:url("https://images.unsplash.com/photo-1692079539095-ce4a5bc6c7ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80");
+    background-position:center;
+    background-repeat:repeat-x;/*back ground repeat */
+}
+#lakshman{
+    font-size:100px ;
+    height: 500px;
+    width:300px;
+    background-size:cover;/*backgrund size cover. contain. auto*/
+    background-image:url("https://images.unsplash.com/photo-1692079539095-ce4a5bc6c7ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80");
+    background-position:top;/*back grpound position top bottom etc*/
+    opacity:1;/*it willchange specific img colour withrespect to page 0.5 or 1 like that*/
+}
+/* 4>border propertys */
+.lav{
+    width:800px;
+    height:400px;
+    background-color: brown;
+    border:2px solid crimson;
+    border-radius: 10px;/*it gives curve shape at ends of border*/
+    border-radius:50%;/*it gives circle*/
+    box-shadow: 2px 3px 4px coral;
+    
+}
+.lav-2{
+    margin:10%;
+    width:400px;
+    height:200px;
+    background-color: blue;
+    border:1px solid white;
+    display:flex;
+    justify-content: middle;
+    margin-inline: auto;
+}
+/* 5>box model properties */
+/*margin means=outside div*/
+/*padding mean=inside div*/
+.kush{
+    width:400px;
+    height:200px;
+    background-color: chartreuse;
+    border:5px solid blue;
+    padding-top:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.kush-2{
+    background-color:darkgreen;
+    width:100px;
+    /*height: 100px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;*/
+/*or*/
+margin: 10px 10px 10px 10px;
+}
+
+
+
