@@ -1,3 +1,138 @@
 *{
     margin:0px;
+    border:0px;
 }
+/*1>BOX MODEL PROPERTIES*/
+.box{
+    width:800px;
+    height:400px;
+    box-sizing: border-box;
+    background-color: aqua;
+    padding: 100px;
+    margin:50px;
+    border:10px solid red;/*border propertty*/
+
+}
+.box-2{
+    width:800px;
+    height:400px;
+    box-sizing: border-box;
+    background-color: aqua;
+    padding: 100px;
+    margin:50px;
+outline:10px solid blue;/*outline property*/
+}/*for border we need to subtract width and height of border  and padding to get text height or elements inside box height and width*/
+/*for out line no need to subtract width and height of outline just padding need to subtract*/
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+}
+.child{
+    width: 100vw;
+    height:50%;
+    background-color: blue;
+}
+/*2>list properties*/
+/*list style type*/
+.yuga-1{
+    list-style-type:upper-roman;
+}
+.yuga-2{
+    list-style-type: disc;
+}
+/*list style position*/
+.yuga-1{
+    list-style-position:inside;
+}
+/*list style image*/
+.yuga-1{
+/* list-style-image:url("https://media.istockphoto.com/id/1417075718/photo/butterfly-in-digital-environment.jpg?s=2048x2048&w=is&k=20&c=o7FINxmusABaL3bstwacSWmEI6ssd3lrV4VRFMwe0-k="); */
+}
+/*3>display properties
+ /*inline*/
+.siva-1{ 
+
+    display:inline ;
+}
+.kanaka-2{   /*Block*/
+
+    display: block;
+}
+/*inline-Block=It comes iline with block propertys block have width, height verticle margins like that*/
+.siva-1{
+    display: inline-block;
+    height: 100px;
+    width:100px;
+    background-color: blue;
+    border: 10px solid black;
+}
+/*4>the position propertys*/
+/*sticky=the position remains same even page scroilling*/
+
+.god{
+    font:20px;
+    background-color: black;
+    color:white;
+    font:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top:0px;
+}
+/*fixed=it will  not move along with page its fixed*/
+.god-1{
+    font:20px;
+    background-color: black;
+    color:white;
+    font:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:20px;
+}
+/*static=its default value of position its stativ only it flows with normally along with page.it will  not accept (top,bottom,left,right)propertys*/
+.god-2{
+    position: static;
+    font:20px;
+    background-color: black;
+    color:white;
+    font:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top:20px;
+}
+/*relative=static+properties(top,bottom,left,right)*/
+.static-1{
+    left:50px;
+    position: static;
+}
+.static-1{
+    left:50px;
+    position: relative;
+}
+/*absolute=it takes diamensions based on ancestor or parent class .if parent classs not present it will take diamensions based on the page*/
+.absolute-parent{
+    width:400px;
+    height:400px;
+    background-color:red;
+    position:relative;
+}
+.absolute-child{
+    position: absolute;
+    border: 0px;
+    radius:0px;
+    bottom:2px;
+    right: 2px;
+
+}
+
+
+
+
+
+
+
