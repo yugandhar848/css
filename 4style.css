@@ -1,0 +1,116 @@
+/* tables */
+.tab{
+    border: 3px solid blue;
+
+}
+tr,th{
+    width: 200px;
+    height: 200px;
+border-bottom: 2px solid green;
+border-collapse: collapse;
+text-align:center;
+vertical-align: text-top;
+background-color: chocolate;
+color:black;
+}
+.first{
+    text-decoration: underline;
+}
+.third{
+    text-shadow: 2px 2px 4px black;
+}
+/* linear gradiant */
+.c1{
+    width:200px;
+    height: 200px;
+    background-color: black;
+    background-image: linear-gradient(to bottom,orange,white,green);
+}
+
+.c2{
+    width:350px;
+    height:60px;
+    background-color:blue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    vertical-align: middle;
+    padding: 10px 15px;
+    font-weight: 900px;
+    cursor: pointer;
+    background-image:linear-gradient(to left,blue,yellow);
+    box-shadow: 4px 3px 6px blue;
+    transition: all 1s ease;
+    /* we can add many colors */
+
+}
+/* radial gradiant */
+.c3{
+    width:250px;
+    height: 300px;
+    background-color: blue;
+    background-image: radial-gradient(circle at center,green,yellow,red,black,blue);
+
+}
+
+/* flex */
+
+.item{
+    height:300px;
+    width:300px;
+    background-color:black;
+    margin:10px;
+}
+/* display flex */
+.flex{
+    /* when we display flex it become flex container flex children becomes flex items but grand childrens does not become flex items*/
+
+    display: flex;
+    background-color:blue ;
+    /* flex directions row ,column ,row reverse and column reverse */
+    flex-direction:row;
+    /* flex justify content it alwys based on x-axis */
+justify-content:space-evenly;
+/* order  default value is zero.smaller order comes 1st incase all the order same the HTML what we written it comes first */
+/* order:0,1,2--etc; */
+/* align ittems  default value stretch:alwys based on y-axis */
+align-items:stretch;
+/* flex wrap f=default value no wrap*/
+flex-wrap: wrap;
+/* flex:1:1:2:3 */
+
+
+}
+.item-1{
+    width:150px;
+    height:100px;
+    background-color: brown;
+    order:0;
+    flex:3
+}
+.item-2{
+    width:250px;
+    height:150px;
+    background-color:yellow; 
+    order:2;
+    flex:3
+
+}
+.item-3{
+    width:300px;
+    height:200px;
+    background-color:blueviolet; 
+    order:1;
+    flex:1;
+}
+.item-4{
+    width:300px;
+    height:200px;
+    background-color:chartreuse; 
+    order:3;
+    flex:5;
+}
+
+
+
