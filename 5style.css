@@ -1,0 +1,201 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* .card{
+    width:600px;
+    height:300px;
+    border:1px solid blue;
+    box-shadow: 2px 5px 50px black;
+    border-radius: 10px;
+    display: flex;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.col-1>img{
+    width:300px;
+    height:300px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.col-2{
+    padding: 10px;
+    /* text-align: right; */
+    /* position: relative; */
+/* } */
+/* #heading{
+    font-size: 24px;
+    font-weight: bold;
+    color:#333;
+}
+#name,#date{
+    font-size: 14px;
+    color: gray;
+}
+#para{
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+#read{
+    position: absolute;
+    bottom:10px;
+    left:10px;
+    text-decoration: none;
+    color:rgb(80, 80, 180)
+} */ 
+/* columns */
+.grid{
+    display: grid;
+width:50%;
+background-color: blue;
+/* grid-template-columns: repeat(4,100px); */
+/* grid-template-columns: 1fr 2fr 3fr 4fr; */
+/* grid-template-columns: repeat(5,100px); */
+/* grid-template-columns: 100px auto 200px; */
+/* grid-template-columns: minmax(100px,1fr) 200px 50px 50px; */
+grid-template-columns: 1fr 200px 300px 2fr;
+}
+.item-1{
+    background-color: black;
+
+}
+.item-2{
+    background-color:yellow;
+
+}
+.item-3{
+    background-color:brown;
+
+}
+.item-4{
+    background-color:chartreuse;
+
+}
+/* rows */
+.grid-1{
+    display: grid;
+/* grid-template-columns: repeat(2,200px); */
+/* grid-template-rows: repeat(2,200px); */
+/* grid-template-rows: repeat(4,100px); */
+/* grid-template-rows: 100px 200px 300px 400px; */
+/* grid-template-rows: minmax(100px,200px) 300px 400px; */
+grid-template-rows: repeat(4,100px 200px);
+}
+.item-row-1{
+    background-color: black;
+
+}
+.item-row-2{
+    background-color:yellow;
+
+}
+.item-row-3{
+    background-color:brown;
+
+}
+.item-row-4{
+    background-color:chartreuse;
+
+}
+.grid-11{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+} 
+.item-row-11{
+    background-color:gold;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item-row-21{
+    background-color:yellow;
+
+}
+.item-row-31{
+    background-color:brown;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+.item-row-41{
+    background-color:chartreuse;
+
+}
+.item-row-51{
+    background-color:cornflowerblue;
+
+}
+.item-row-61{
+    background-color:lightpink;
+
+}
+/* start-1 end we can consider for so many lines end=-1 and end -2 -3 -4 similarly */
+/* grid row 1/3 its short cut for writing start=1 and end =3 */
+.grid-111{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    grid-template-areas: 
+    "a a a a a a a a a"
+    "b b b b b b b b b b "
+    "c c c d c d c c c ";
+
+} 
+.item-row-111{
+    background-color:gold;
+    grid-area:a;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item-row-211{
+    background-color:yellow;
+grid-area: b;
+}
+.item-row-311{
+    background-color:brown;
+grid-area: d;
+
+}
+.item-row-411{
+    background-color:chartreuse;
+
+}
+.item-row-511{
+    background-color:cornflowerblue;
+
+}
+.item-row-611{
+    background-color:lightpink;
+
+}
+.apple-1{
+    display: grid;
+    grid-template-rows:repeat(2,200px);
+    grid-template-columns:repeat(3,200px);
+    width:50%;
+    grid-gap: 50px;
+
+}
+img{
+    height:200px;
+    width:200px;
+    
+}
+.fr-1>img{
+    overflow: hidden;
+    width:50px;
+    height: 50px;
+    padding:70px;
+}
+.fr-2>img{
+    overflow-x: scroll;
+width:300px;
+height:300px;
+align-items: end;
+padding:10px;
+}
