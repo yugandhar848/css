@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    border:0px;
+}
+.box{
+    background-color: blue;
+    padding: 30px;
+
+}
+p{
+    color: brown;
+
+}
+h1{
+    color:chartreuse;
+}
+.ele>img{
+    height: 300px;
+    width:70%;
+}
+
+
+
+@media screen and (min-width:900px) and (max-width:1000px){
+    .box{
+background-color: black;
+    }
+    p{
+color: blanchedalmond;
+    }
+    h1{
+        color: dodgerblue;
+    }
+
+}
+@media screen and (orientation:landscape) and (min-width:600px){
+    .box{
+        background-color:blanchedalmond;
+            }
+            p{
+        color:chocolate;
+            }
+            h1{
+                color:violet  
+}
+    
+}
+@media screen and (orientation:potrait) and (min-width:700px ) {
+    .ele>img{
+        height: 700px;
+    }
+    
+}
